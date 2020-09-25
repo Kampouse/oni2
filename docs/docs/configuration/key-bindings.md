@@ -171,6 +171,8 @@ Onivim-specific contexts:
 | Control+W, Control+K | Move up a split | `window.moveUp` |
 | Control+W, Control+R | Rotate forwards | `view.rotateForward` |
 | ~~Control+W, Control+Shift+R~~ | Rotate backwards | `view.rotateBackward` |
+| Mod+PgDn / Cmd+Shift+]	 | Next tab | `workbench.action.nextEditor` |
+| Mod+PgDn / Cmd+Shift+[	 | Previous tab | `workbench.action.previousEditor` |
 | | Decrease editor size | `workbench.action.decreaseViewSize` |
 | | Increase editor size | `workbench.action.increaseViewSize` |
 | ~~Control+W, <~~ | Decrease editor size horizontally | `vim.decreaseHorizontalWindowSize` |
